@@ -36,7 +36,10 @@ org.lockss.ui.access.ip.include = 10.0.2.2
 
 ## Accessing LOCKSS-O-Matic
 
-Go to http://localhost:8000/lom/web/app.php and log in as `admin@example.com` / `admin'.
+1. go to `http://localhost:8000/lom/web/app.php`
+1. log in with`admin@example.com` / `admin`.
+
+Instructions on what to do next to follow.....
 
 ## Other details you might find useful
 
