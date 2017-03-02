@@ -39,11 +39,14 @@ org.lockss.ui.access.ip.include = 10.0.2.2
 1. go to `http://localhost:8000/lom/web/app.php`
 1. log in with`admin@example.com` / `admin`.
 
+LOCKSS-O-Matic comes prepopulated with a sample PLN comprised of the four boxes started following the instructions above.
+
 Instructions on what to do next to follow.....
 
-## Other details you might find useful
+## Looging into the VM's via SSH
 
 You can connect to the machine via ssh: `ssh -p 2222 vagrant@localhost` and log in with:
+
   - username: vagrant
   - password: vagrant
 
