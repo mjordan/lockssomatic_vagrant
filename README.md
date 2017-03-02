@@ -25,6 +25,7 @@ This VM can run the "test framework" PLN described at https://plnwiki.lockss.org
 
 1. ssh into the VM as the vagrant user (see below)
 1. `cd ~/lockss-daemon/test/frameworks/run_multiple_daemons`
+1. run `./start` (to shutdown the daemons later, run `./stop`)
 1. after the daemons have started (which can take a minute, so be patient), you will be able to access their admin user interfaces at `http://localhost:8081`, `http://localhost:8082`, `http://localhost:8083`, and `http://localhost:8084`. Log into you boxes with `lockss-u` and `lockss-p`.
 
 If you get an error indicating that access to the admin UI is not allowed from your IP address, add the following line to `~/lockss-daemon/test/frameworks/run_multiple_daemons/lockss.txt`, specifying the IP address indicated in the error message:
@@ -35,7 +36,7 @@ org.lockss.ui.access.ip.include = 10.0.2.2
 
 ## Accessing LOCKSS-O-Matic
 
-Not ready yet. Coming soon.
+Go to http://localhost:8000/lom/web/app.php and log in as `admin@example.com` / `admin'.
 
 ## Other details you might find useful
 

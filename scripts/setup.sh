@@ -13,6 +13,10 @@ apt-get -y install php5-gd php5-dev php5-xsl php5-curl php5-cli php-pear
 pear install Archive_Tar
 service apache2 restart
 
+# Install composer
+curl -Ss https://getcomposer.org/installer | php
+mv composer.phar /usr/bin/composer
+
 # Install LOCKSS daemon dependencies
 add-apt-repository ppa:webupd8team/java
 apt-get update

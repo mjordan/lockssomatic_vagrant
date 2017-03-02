@@ -22,4 +22,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision :shell, path: "./scripts/setup.sh"
   config.vm.provision :shell, path: "./scripts/lockss.sh"
+  config.vm.provision :shell, path: "./scripts/lom.sh"
 end
