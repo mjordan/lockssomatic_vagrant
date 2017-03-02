@@ -16,6 +16,7 @@ chmod -R 777 /var/www/html/lom/app/logs
 php app/console doctrine:schema:update --force
 php app/console fos:user:create --super-admin admin@example.com admin Admin Example.com
 
-# mysql -uroot -pojs symfony < /vagrant/pkppln_db_terms_of_use.sql
+mysql -uroot -proot lomtest < /vagrant/plns.sql
+mysql -uroot -proot lomtest < /vagrant/boxes.sql
 
 echo "Log into LOCKSS-O-Matic at http://localhost:8000/lom/web/app.php with admin@example.com / admin"
