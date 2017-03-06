@@ -42,7 +42,7 @@ CREATE TABLE `plns` (
 
 LOCK TABLES `plns` WRITE;
 /*!40000 ALTER TABLE `plns` DISABLE KEYS */;
-INSERT INTO `plns` VALUES (1,NULL,'Local test PLN','A test PLN','admin','admin','a:0:{}');
+INSERT INTO `plns` VALUES (1,NULL,'Local test PLN','A test PLN','admin@example.com','admin','a:0:{}');
 /*!40000 ALTER TABLE `plns` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

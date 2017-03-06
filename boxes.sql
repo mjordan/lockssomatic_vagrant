@@ -42,7 +42,7 @@ CREATE TABLE `boxes` (
 
 LOCK TABLES `boxes` WRITE;
 /*!40000 ALTER TABLE `boxes` DISABLE KEYS */;
-INSERT INTO `boxes` VALUES (1,1,'localhost','TCP',9729,'127.0.0.1',8081),(2,1,'localhost','TCP',9729,'127.0.0.1',8082),(3,1,'localhost','TCP',9729,'127.0.0.1',8083),(4,1,'localhost','TCP',9729,'127.0.0.1',8084);
+INSERT INTO `boxes` VALUES (1,1,'localhost','TCP',9721,'127.0.0.1',8081),(2,1,'localhost','TCP',9722,'127.0.0.1',8082),(3,1,'localhost','TCP',9723,'127.0.0.1',8083),(4,1,'localhost','TCP',9724,'127.0.0.1',8084);
 /*!40000 ALTER TABLE `boxes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
