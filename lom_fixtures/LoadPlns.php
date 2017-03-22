@@ -8,7 +8,7 @@ use Doctrine\Common\Persistence\ObjectManager;
 use LOCKSSOMatic\CrudBundle\Entity\Pln;
 
 /**
- * Description of LoadPln
+ * Creates a PLN.
  */
 class LoadPln  extends AbstractFixture implements OrderedFixtureInterface {
 
@@ -21,7 +21,6 @@ class LoadPln  extends AbstractFixture implements OrderedFixtureInterface {
         $pln = new Pln();
         $pln->setName('Test PLN');
         $pln->setDescription('A test PLN used in the LOM Vagrant');
-        // $pln->setProperty(array());
         $pln->setKeystore(null);
         $pln->setUsername('admin@example.com');
         $pln->setPassword('admin');
